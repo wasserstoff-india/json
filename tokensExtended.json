@@ -1,0 +1,66 @@
+[
+    {
+        "id": "bitcoin",
+        "symbol": "btc",
+        "name": "Bitcoin",
+        "decimals" : 8,
+        "chain" : "bitcoin",
+        "chainId" : 1,
+        "tokenType" : "currency",
+        "wrappedAssets : {
+          "bsc" : "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+          "eth" : "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+          "polygon" : "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+        }
+        "image": {
+            "thumb": "https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579",
+            "small": "https://assets.coingecko.com/coins/images/1/small/bitcoin.png?1547033579",
+            "large": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579"
+        }
+    },
+    {
+        "id": "ethereum",
+        "symbol": "eth",
+        "name": "Ethereum",
+        "decimals" : 18,
+        "chain" : "ethereum",
+        "chainId" : 1,
+        "tokenType" : "currency",
+        "token_address" : "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "image": {
+            "thumb": "https://assets.coingecko.com/coins/images/279/thumb/ethereum.png?1595348880",
+            "small": "https://assets.coingecko.com/coins/images/279/small/ethereum.png?1595348880",
+            "large": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880"
+        }
+    },
+    {
+        "id": "tether",
+        "symbol": "usdt",
+        "name": "Tether",
+        "token_address" : "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "tokenType" : "erc20",
+        "chain" : "eth",
+        "chainId" : 1,
+        "decimals" : 18,
+        "image": {
+            "thumb": "https://assets.coingecko.com/coins/images/325/thumb/tether.png?1667873465",
+            "small": "https://assets.coingecko.com/coins/images/325/small/tether.png?1667873465",
+            "large": "https://assets.coingecko.com/coins/images/325/large/tether.png?1667873465"
+        }
+    },
+    {
+        "id" : "binance-pegged-tether",
+        "name": "USDT BEP20",
+        "symbol": "USDT",
+        "token_address": "0x55d398326f99059fF775485246999027B3197955",
+        "chainId": 56,
+        "tokenType" : "erc20",
+        "chain" : "bsc",
+        "decimals": 18,
+        "image": {
+            "thumb": "https://tokens.pancakeswap.finance/images/0x55d398326f99059fF775485246999027B3197955.png",
+            "small": "https://tokens.pancakeswap.finance/images/0x55d398326f99059fF775485246999027B3197955.png",
+            "large": "https://tokens.pancakeswap.finance/images/0x55d398326f99059fF775485246999027B3197955.png"
+        }
+    }
+]
